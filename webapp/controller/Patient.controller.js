@@ -4,7 +4,8 @@ sap.ui.define([
     "../utils/Utils",
     "sap/m/MessageToast",
     "sap/m/MessageBox"
-], function(Controller, Formatter, Utils, MessageToast, MessageBox) {
+  ],
+  function(Controller, Formatter, Utils, MessageToast, MessageBox) {
 	"use strict";
 
 	return Controller.extend("myhealthapp.controller.Patient", {

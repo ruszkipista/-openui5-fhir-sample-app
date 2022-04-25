@@ -1,5 +1,8 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="myhealthapp.controller.Home"
-	xmlns:html="http://www.w3.org/1999/xhtml">
+<mvc:View controllerName="myhealthapp.controller.Home"
+		xmlns="sap.m"
+		xmlns:core="sap.ui.core" 
+		xmlns:mvc="sap.ui.core.mvc" 
+		xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="{i18n>title}">
 		<content>
 			<GenericTile id="myPatientsTile" binding="{/Patient}" class="sapUiTinyMarginBegin sapUiTinyMarginTop" header="My Patients" press="onMyPatientsTilePress">

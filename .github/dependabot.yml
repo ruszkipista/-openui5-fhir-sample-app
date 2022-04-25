@@ -7,7 +7,7 @@ updates:
     time: "06:00"
   open-pull-requests-limit: 10
   reviewers:
-  - AmirthavalliG
+  - ruszkipista
   versioning-strategy: increase
   ignore:
   - dependency-name: openui5-fhir
